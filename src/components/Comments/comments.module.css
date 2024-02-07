@@ -1,0 +1,18 @@
+.commentAuthor {
+  font-weight: bold;
+  font-size: .8em;
+}
+.commentDate {
+  color: #5f5f5f;
+  font-size: .8em;
+}
+.commentBlock {
+  border-bottom: 1px solid #c8c8c886;
+  padding: 1.4em 0;
+}
+.commentText {
+  padding: 1.3em 0;
+}
+.subCommentBlock {
+  padding-left: 1.5em;
+}

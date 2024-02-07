@@ -1,0 +1,15 @@
+.newsItemBlock {
+  border-bottom: 1px solid #c8c8c886;
+  cursor: pointer;
+  padding: 1.4em 0;
+  transition: .4s;
+}
+.newsItemBlock:hover {
+  background-color: rgba(200, 200, 200, .08);
+}
+.newsListTitle {
+  padding: 40px 0;
+}
+.newsUpdateButton {
+  padding: 20px 0;
+}
