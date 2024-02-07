@@ -1,8 +1,41 @@
-# React + Vite
+## Возможности
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- **Просмотр последних новостей**: пользователи могут просматривать список последних новостей, предоставляемых через внешний API.
+- **Динамические комментарии**: для каждой новости доступен просмотр комментариев, включая вложенные комментарии.
+- **Адаптивный дизайн**: интерфейс оптимизирован для просмотра как на настольных компьютерах, так и на мобильных устройствах.
+- **Регулярное обновление контента**: приложение регулярно обновляет список новостей и комментарии к ним, обеспечивая актуальность контента.
 
-Currently, two official plugins are available:
+## Технологии
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Приложение разработано с использованием следующих технологий:
+
+- React 18
+- Redux для управления состоянием
+- React Router для навигации
+- Bootstrap для стилизации
+- Vite как современный инструмент сборки
+
+## Установка и запуск
+
+Для запуска проекта на вашем локальном компьютере выполните следующие шаги:
+
+1. Клонируйте репозиторий:
+  ```bash
+  git clone https://github.com/tsugaev/news-app.git
+
+2. Перейдите в каталог проекта:
+  ```bash
+  cd news-app
+
+3. Установите зависимости:
+  ```bash
+  npm install
+
+4. Запустите проект:
+  ```bash
+  npm run dev
+
+После выполнения этих шагов приложение будет доступно по адресу `http://localhost:3000`.
+
+
+
